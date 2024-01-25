@@ -88,6 +88,8 @@ a {
     padding-top: 18px;
 }
 
+/****** formulaire et filtres ***********/
+
 /****** formulaire ***********/
 .formulaire {
     margin: 30px 0;
@@ -133,7 +135,7 @@ a {
     width: 15rem;
     border: none;
     border-radius: 0 15px 15px 0;
-    font-size: 1.1rem;
+    font-size: 16px;
     font-weight: 600;
     background-color: #0065FC;
     color: white;
@@ -141,6 +143,51 @@ a {
 
 .fa-magnifying-glass {
     display: none;
+}
+
+/****** Filtres ***********/
+
+.filtres {
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    max-width: 50rem;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.filtres button {
+    padding: 15px;
+    width: 10rem;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 2px solid #D9D9D9;
+    background-color: white;
+}
+
+.filtres button span {
+    padding-left: 10px;
+}
+
+.filtres button:hover {
+    background-color: #DEEBFF;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+}
+
+.fa-info {
+    border: 2px solid #D9D9D9;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /****** Hebergements And Populaires ***********/
