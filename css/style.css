@@ -325,6 +325,32 @@ a {
     padding: 20px;
 }
 
+/****** Footer ***********/
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-top: 33px;
+}
+
+.footer-content {
+    width: 33%;
+    margin: 33px;
+}
+
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-list li {
+    padding-top: 10px;
+}
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
