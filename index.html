@@ -20,36 +20,37 @@
             <nav class="nav">
                 <img src="./images/logo/Booki.png" alt="logo" class="logo">
                 <ul>
-                    <li><a href="#lien-hebergement" class="border-top">Hébergements</a></li>
-                    <li><a href="#lien-activite"  class="border-top">Activités</a></li>
+                    <li class="border"><a href="#link-accommodation" class="border-top">Hébergements</a></li>
+                    <li class="border"><a href="#link-activities" class="border-top">Activités</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section class="formulaire">
+            <section class="form">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre-ville ou en pleine nature</p>
                 <form class="search">
                     <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
                     <input type="search" name="q" class="search-input" value="Marseille, France">
-                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>Rechercher</button>
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i><span class="text">Rechercher</span></button>
                 </form>
-                <div class="filtres">
+                <div class="filter">
                     <p>Filtres</p>
-                    <button><i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i><span>Économique</span></button>
-                    <button><i class="fa-solid fa-person" style="color: #0065fc;"></i><span>Familial</span></button>
-                    <button><i class="fa-solid fa-heart" style="color: #0065fc;"></i><span>Romantique</span></button>
-                    <button><i class="fa-solid fa-fire" style="color: #0065fc;"></i><span>Nos pépites</span></button>
+                    <div class="filter-btn">
+                        <button><i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i><span>Économique</span></button>
+                        <button><i class="fa-solid fa-person" style="color: #0065fc;"></i><span>Familial</span></button>
+                        <button><i class="fa-solid fa-heart" style="color: #0065fc;"></i><span>Romantique</span></button>
+                        <button><i class="fa-solid fa-fire" style="color: #0065fc;"></i><span>Nos pépites</span></button>
+                    </div>
                 </div>
                 <div class="info-container">
                     <i class="fa-solid fa-info" style="color: #0065fc;"></i>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
-            </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-                    <h2 class="section-title" id="lien-hebergement">Hébergements à Marseille</h2>
+                    <h2 class="section-title" id="link-accommodation">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
                         <a href="#">
                             <article class="card">
@@ -166,7 +167,7 @@
                             </article>
                         </a>
                     </div>
-                    <h2><a href="#">Afficher plus</a></h2>
+                    <h2 class="more-title"><a href="#">Afficher plus</a></h2>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -234,9 +235,9 @@
                     </div>
                 </section>
             </div>
-            <section class="activites">
-                <h2 class="section-title" id="lien-activite">Activités à Marseille</h2>
-                <div class="activites-cards">
+            <section class="activities">
+                <h2 class="section-title" id="link-activities">Activités à Marseille</h2>
+                <div class="activities-cards">
                     <a href="#">
                         <article class="card">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Image d'un port">
